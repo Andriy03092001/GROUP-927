@@ -1,4 +1,5 @@
-.myHeader {
-    text-align: center;
-    color: pink;
+.text {
+    background-color: red;
+    color: white;
+    align-content: center;
 }

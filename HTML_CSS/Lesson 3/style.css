@@ -1,0 +1,100 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+th {
+    height: 160px;
+    background-color: gray;
+    color: white;
+    font-size: 23px;
+}
+
+
+.bg-color-1-th{
+    background-color: #7887ab;
+}
+
+.bg-color-2-th{
+    background-color: #4f628e;
+}
+
+.bg-color-3-th{
+    background-color: #2e4172;
+}
+
+.bg-color-4-th{
+    background-color: #162955;
+}
+
+.bg-color-5-th{
+    background-color: #061539;
+}
+
+.th-width-1{
+    width: 300px;
+}
+
+.th-width-2{
+    width: 200px;
+
+}
+
+.price {
+    font-size: 35px;
+}
+
+.first-th{
+    border-radius: 15px 0px 0px 0px;
+}
+
+.last-th{
+    border-radius: 0px 15px 0px 0px;
+}
+
+td {
+    padding: 15px;
+    background-color: gray;
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+    padding-left: 35px;
+}
+
+.first-td{
+    border-radius:  0px 0px 0px 15px;
+}
+
+.last-td{
+    border-radius: 0px 0px 15px 0px;
+}
+
+
+.bg-color-td-1{
+    background-color: #dbdbdb;
+}
+
+.bg-color-td-2{
+    background-color: #e7e7e7;
+}
+
+.bg-color-td-3{
+    background-color: #ececec;
+}
+
+.bg-color-td-4{
+    background-color: #f3f3f3;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    color: #62646f;
+    background-color: #d3d3d3;
+}

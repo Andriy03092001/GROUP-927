@@ -1,0 +1,48 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+
+.brand-list{
+    list-style-type: square;
+}
+
+.myMenu {
+    list-style-type: none;
+    background-color: #333;
+    color: white;
+    margin:0px;
+    padding: 0px;
+    overflow: hidden;
+    margin: 20px 50px;
+}
+
+.menu-item {
+    float: left;
+}
+
+.menu-item p {
+    /* padding: 15px; */
+
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+
+    margin:0px;
+    display: block;
+    cursor: pointer;
+}
+
+
+.menu-item p:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.active {
+    background-color: tomato;
+}
+
+.active p:hover{
+    background-color: yellowgreen !important;
+}
+
