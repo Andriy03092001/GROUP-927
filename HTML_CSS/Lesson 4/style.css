@@ -1,0 +1,74 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.brand-list {
+    list-style-type: square;
+}
+
+.myMenu {
+    list-style-type: none;
+    background-color: #333;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.menu-item {
+    float: left;
+}
+
+.menu-item a {
+    /* padding: 15px; */
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    margin: 0px;
+    display: block;
+    cursor: pointer;
+}
+
+.menu-item a:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.active {
+    background-color: tomato;
+}
+
+.active a:hover {
+    background-color: yellowgreen !important;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.CartInfo {
+    width: 80%;
+    height: 600px;
+    background-color: rgb(73, 73, 73);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid rgb(32, 32, 32);
+    text-align: center;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+}
+
+.CartInfo h2 {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.CartInfo h3 {
+    color: rgb(170, 170, 170);
+}
