@@ -1,0 +1,28 @@
+.myMenu {
+    list-style-type: none;
+    color: #686868;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.menu-item {
+    float: left;
+}
+
+.menu-item p {
+    /* padding: 15px; */
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    margin: 0px;
+    display: block;
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 2px solid gray;
+    ;
+}
