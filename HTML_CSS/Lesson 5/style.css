@@ -1,0 +1,123 @@
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f1f1f1;
+    }
+    
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    @media (min-width: 768px) {
+        .container {
+            width: 750px;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .container {
+            width: 970px;
+        }
+    }
+    
+    @media (min-width: 1200px) {
+        .container {
+            width: 1270px;
+        }
+    }
+    
+    .video {
+        width: 210px;
+        height: 224px;
+        float: left;
+        margin: 20px;
+    }
+    
+    .video h2 {
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .video h4 {
+        font-size: 14px;
+        margin: 0px;
+        color: gray;
+    }
+    
+    .video img {
+        width: 246px;
+        height: 138px;
+    }
+    
+    .hat {
+        background-image: url(images/hat.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 255px;
+    }
+    
+    .block-info {
+        width: 100%;
+        height: 100px;
+        background-color: white;
+    }
+    
+    .channel-logo {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-top: 10px;
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .text-info {
+        float: left;
+        margin-left: 25px;
+    }
+    
+    .text-info h3 {
+        margin-bottom: 5px;
+    }
+    
+    .text-info p {
+        margin-top: 5px;
+        color: gray;
+    }
+    
+    .confirm-check {
+        color: gray;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .button-block {
+        float: right;
+    }
+    
+    .button-block button {
+        background-color: #ececec;
+        padding: 10px;
+        border: none;
+        margin-top: 28px;
+        color: #686868;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .bell {
+        color: gray;
+        font-size: 25px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    
+    .menu {
+        width: 100%;
+        height: 50px;
+        background-color: white;
+    }
