@@ -27,6 +27,11 @@ function isEmail(email) {
     return re.test(String(email).toLowerCase());
 }
 
+var array = [
+    { name: "Andrii", phone: "23121212" },
+    { name: "Vika", phone: "1212312312" }
+];//Vlad, Vika, Andrii
+
 function addRow() {
     document.getElementById("tableRows").innerHTML += `
     <tr>
@@ -34,6 +39,12 @@ function addRow() {
         <td>TEST</td>
     </tr>
     `;
+
+    console.log(array.length);
+    array.push("Andrii");
+    array.pop();
+    array.splice(0, 1);
+
     var rows = document.getElementsByTagName("tr");
     console.log(rows);
 }
