@@ -20,7 +20,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
                     `
                 <div class="card col-lg-6 col-md-6 col-sm-12 col-12" >
                     <div class="card-body">
-                      <h5 class="card-title">${posts[i].title}</h5>
+                      <h5 class="card-title" >${posts[i].title}</h5>
                       <p class="card-text">${posts[i].body}</p>
                       <a href="#" class="card-link">More info</a>
                     </div>
