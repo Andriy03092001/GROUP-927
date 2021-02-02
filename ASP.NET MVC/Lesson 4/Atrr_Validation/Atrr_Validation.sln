@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atrr_Validation", "Atrr_Validation\Atrr_Validation.csproj", "{42499AE8-740B-479E-BDE7-05F4ADBF1C41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42499AE8-740B-479E-BDE7-05F4ADBF1C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42499AE8-740B-479E-BDE7-05F4ADBF1C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42499AE8-740B-479E-BDE7-05F4ADBF1C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42499AE8-740B-479E-BDE7-05F4ADBF1C41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7BB3A86-2911-47A5-816E-960033E7D3C5}
+	EndGlobalSection
+EndGlobal

@@ -11,8 +11,8 @@
 var canavas = document.getElementById("canvas");
 var context = canavas.getContext("2d");
 
-canavas.width = 500;
-canavas.height = 500;
+canavas.width = window.innerWidth;
+canavas.height = window.innerHeight;
 
 // Point draw:
 context.strokeStyle = "red";
