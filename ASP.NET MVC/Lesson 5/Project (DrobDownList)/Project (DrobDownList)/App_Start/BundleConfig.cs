@@ -25,6 +25,9 @@ namespace Project__DrobDownList_
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/Content/my").Include(
+                      "~/Content/my.css"));
         }
     }
 }
