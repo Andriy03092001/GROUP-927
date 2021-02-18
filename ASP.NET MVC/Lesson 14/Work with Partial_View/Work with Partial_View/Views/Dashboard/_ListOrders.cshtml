@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Work_with_Partial_View.Models.OrderViewModel>
+
+<h2>Orders:</h2>
+<table class="table">
+    <tr>
+        <th>Full Name Customer</th>
+        <th>Address</th>
+        <th>Product</th>
+        <th>Count product</th>
+        <th>Total price</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.FullName</td>
+            <td>@item.Address</td>
+            <td>@item.NameProduct</td>
+            <td>@item.CountProducts</td>
+            <td>@item.Price</td>
+        </tr>
+    }
+
+</table>
