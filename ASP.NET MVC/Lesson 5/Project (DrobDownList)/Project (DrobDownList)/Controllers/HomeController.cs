@@ -32,6 +32,8 @@ namespace Project__DrobDownList_.Controllers
         {
             StudentViewModel model = new StudentViewModel();
             model.Genders = new List<SelectListItem>();
+            model.Groups = new List<SelectListItem>();
+            
             model.Genders.Add(new SelectListItem
             {
                 Value = "MALE",

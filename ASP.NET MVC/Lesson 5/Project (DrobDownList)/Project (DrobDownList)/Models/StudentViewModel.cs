@@ -12,6 +12,10 @@ namespace Project__DrobDownList_.Models
         public string FullName { get; set; }
         public string Gender { get; set; }
         public List<SelectListItem> Genders { get; set; }
+
+
+        public string Group { get; set; }
+        public List<SelectListItem> Groups { get; set; }
         //public Gender studentGender { get; set; }
     }
 
